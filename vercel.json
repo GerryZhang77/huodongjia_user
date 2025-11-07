@@ -3,7 +3,7 @@
     {
       "source": "/(.*)",
       "has": [
-        { "type": "host", "value": "(?:.+\\.)?users\\.eventclub\\.cn" }
+        { "type": "host", "value": "(?:.+\\.)?user\\.eventclub\\.cn" }
       ],
       "destination": "/main.html",
       "permanent": false
