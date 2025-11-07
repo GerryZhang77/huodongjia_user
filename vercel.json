@@ -1,4 +1,14 @@
 {
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        { "type": "host", "value": "(?:.+\\.)?users\\.eventclub\\.cn" }
+      ],
+      "destination": "/main.html",
+      "permanent": false
+    }
+  ],
   "rewrites": [
     {
       "source": "/api/:path*",
