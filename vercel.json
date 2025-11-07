@@ -1,15 +1,19 @@
 {
-  "redirects": [
+  "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/main.html",
       "has": [
         { "type": "host", "value": "(?:.+\\.)?user\\.eventclub\\.cn" }
       ],
-      "destination": "/main.html",
-      "permanent": false
-    }
-  ],
-  "rewrites": [
+      "destination": "/main.html"
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        { "type": "host", "value": "(?:.+\\.)?user\\.eventclub\\.cn" }
+      ],
+      "destination": "/main.html"
+    },
     {
       "source": "/api/:path*",
       "destination": "http://47.92.0.104:12345/api/:path*"
