@@ -1,0 +1,7 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- 蓝色圆角方块背景 (bg-blue-600 对应 #2563eb) -->
+  <rect x="0" y="0" width="64" height="64" rx="16" ry="16" fill="#2563eb"/>
+  
+  <!-- 白色"活"字 -->
+  <text x="32" y="44" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">活</text>
+</svg>
